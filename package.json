@@ -4,11 +4,12 @@
   "description": "",
   "scripts": {
     "test": "jest",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "sample": "ts-node -r tsconfig-paths/register src/sample.ts"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:kakaru1331/interview-preparation.git"
+    "url": "git@github.com:kakaru1331/interview-preparation.git"    
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "@typescript-eslint/parser": "^3.6.0",
     "eslint": "^7.4.0",
     "jest": "^26.1.0",
-    "ts-jest": "^26.1.3"
+    "ts-jest": "^26.1.3",
+    "tsconfig-paths": "^3.9.0"
   }
 }
